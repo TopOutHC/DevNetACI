@@ -25,6 +25,14 @@ wget https://d1nmyq4gcgsfi5.cloudfront.net/fileMedia/b3b69aa3-891b-41ff-46db-a73
 pip3.7 install acicobra-4.2_3h-py2.py3-none-any.whl
 pip3.7 install acimodel-4.2_3h-py2.py3-none-any.whl
 
+#install ACI Learning Labs
+git clone https://github.com/CiscoDevNet/aci-learning-labs-code-samples
+cd aci-learning-labs-code-samples
+#python -m venv venv
+#venv\Scripts\activate.bat
+pip install -r requirements.txt
+cd ..
+
 #install Terraform
 git clone https://github.com/CiscoDevNet/aci_terraform_learning_labs_code_samples
 
