@@ -10,6 +10,9 @@ pip install acicobra-4.2_3h-py2.py3-none-any.whl
 pip install acimodel-4.2_3h-py2.py3-none-any.whl
 cd ..
 
+Invoke-WebRequest "https://releases.hashicorp.com/terraform/1.0.5/terraform_1.0.5_windows_amd64.zip" -OutFile "C:\Users\demouser\DevNetACI\terraform_1.0.5_windows_amd64.zip" 
+Expand-Archive -Path C:\Users\demouser\DevNetACI\terraform_1.0.5_windows_amd64.zip -DestinationPath C:\Users\demouser\tools
+
 # Install Terraform Sample
 git clone https://github.com/CiscoDevNet/aci_terraform_learning_labs_code_samples
 
