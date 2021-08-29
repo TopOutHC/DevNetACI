@@ -14,6 +14,8 @@ cd ..
 yum install -y epel-release
 yum install -y ansible
 cd ..
+#install ansible sample
+git clone https://github.com/CiscoDevNet/aci_ansible_learning_labs_code_samples
 #install acitoolkit
 git clone https://github.com/datacenter/acitoolkit.git
 cd acitoolkit
