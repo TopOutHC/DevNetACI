@@ -14,13 +14,13 @@ cd ..
 git clone https://github.com/CiscoDevNet/aci_terraform_learning_labs_code_samples
 
 # Postmanの再インストール
-Write-Output "# 以下のURLからダウンロードし、Windows版64-bitのアプリの再インストールを行ってください"
+Write-Output "# Please download Postman from below URL. And install Windows 64-bitapplication"
 Write-Output "# https://www.postman.com/downloads"
 
-Write-Output "# インストール済みのPython2.7.13と、Python3.6.1をアンインストールします。"
-Write-Output "# 以下のURLからダウンロードし、Windows版64-bitのPython 3.8.10のインストールを行います。"
+Write-Output "# Please UNINSTALL Python 2.7.13 and Python 3.6.1"
+Write-Output "# Please download Python 3.8.10 from below URL. And install Windows 64-bitapplication"
 Write-Output "# https://www.python.org/downloads/windows"
-Write-Output "# インストールを行う際に、「Add Python 3.8 to PATH」のチェックボックスにチェックを入れることを忘れないでください。"
+Write-Output "# Please do not forget to check [Add Python 3.8 to PATH] when install python!!
 
-Write-Output "# 以下のURLからダウンロードし、Windows版64-bitのアプリのダウンロードを行います。"
+Write-Output "# Please download Terraform from below URL."
 Write-Output "# https://www.terraform.io/downloads.html"
