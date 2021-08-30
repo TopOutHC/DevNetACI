@@ -2,6 +2,12 @@
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls, [Net.SecurityProtocolType]::Tls11, [Net.SecurityProtocolType]::Tls12, [Net.SecurityProtocolType]::Ssl3
 [Net.ServicePointManager]::SecurityProtocol = "Tls, Tls11, Tls12, Ssl3"
 
+#install acitoolkit
+git clone https://github.com/datacenter/acitoolkit.git
+cd acitoolkit
+python setup.py install
+cd ..
+
 # Install Arya sample
 git clone https://github.com/CiscoDevNet/aci-learning-labs-code-samples
 
