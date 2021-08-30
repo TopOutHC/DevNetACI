@@ -8,10 +8,8 @@ git clone https://github.com/CiscoDevNet/aci-learning-labs-code-samples
 # Install Cobra SDK
 Invoke-WebRequest "https://d1nmyq4gcgsfi5.cloudfront.net/fileMedia/1f3d41ce-d154-44e3-74c1-d6cf3b525eaa/acicobra-4.2_3h-py2.py3-none-any.whl" -OutFile "C:\Users\demouser\DevNetACI\acicobra-4.2_3h-py2.py3-none-any.whl"
 Invoke-WebRequest "https://d1nmyq4gcgsfi5.cloudfront.net/fileMedia/b3b69aa3-891b-41ff-46db-a73b4b215860/acimodel-4.2_3h-py2.py3-none-any.whl" -OutFile "C:\Users\demouser\DevNetACI\acimodel-4.2_3h-py2.py3-none-any.whl"
-cd DevNetACI
 pip install acicobra-4.2_3h-py2.py3-none-any.whl
 pip install acimodel-4.2_3h-py2.py3-none-any.whl
-cd ..
 
 Invoke-WebRequest "https://releases.hashicorp.com/terraform/1.0.5/terraform_1.0.5_windows_amd64.zip" -OutFile "C:\Users\demouser\DevNetACI\terraform_1.0.5_windows_amd64.zip" 
 Expand-Archive -Path C:\Users\demouser\DevNetACI\terraform_1.0.5_windows_amd64.zip -DestinationPath C:\Users\demouser\tools
