@@ -36,5 +36,10 @@ pip install -r requirements.txt
 cd ..
 
 #install Terraform
+wget https://releases.hashicorp.com/terraform/1.0.5/terraform_1.0.5_linux_amd64.zip
+unzip terraform_1.0.5_linux_amd64.zip
+mv terraform /usr/local/bin
+
+#install Terraform
 git clone https://github.com/CiscoDevNet/aci_terraform_learning_labs_code_samples
 
