@@ -12,12 +12,12 @@ cd ..
 git clone https://github.com/CiscoDevNet/aci-learning-labs-code-samples
 
 # Install WebArya
-cd CiscoDevNet\aci-learning-labs-code-samples
+cd aci-learning-labs-code-samples
 git clone https://github.com/datacenter/webarya.git
 cd webarya
 pip install -r requirements.txt -U
 cd ..
-cd ..\..
+cd ..
 
 # Install Cobra SDK
 Invoke-WebRequest "https://d1nmyq4gcgsfi5.cloudfront.net/fileMedia/1f3d41ce-d154-44e3-74c1-d6cf3b525eaa/acicobra-4.2_3h-py2.py3-none-any.whl" -OutFile "C:\Users\demouser\DevNetACI\acicobra-4.2_3h-py2.py3-none-any.whl"
